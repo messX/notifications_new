@@ -3,6 +3,13 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
+    <dependencies>
+        <dependency>
+            <groupId>com.messx.notifications.lib</groupId>
+            <artifactId>lib</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
     <parent>
         <groupId>com.messx.notifications</groupId>
         <artifactId>core</artifactId>
@@ -10,7 +17,7 @@
         <relativePath>../pom.xml</relativePath>
     </parent>
 
-    <groupId>org.messx.notifications</groupId>
+    <groupId>com.messx.notifications.api</groupId>
     <artifactId>api</artifactId>
     <version>1.0-SNAPSHOT</version>
 
